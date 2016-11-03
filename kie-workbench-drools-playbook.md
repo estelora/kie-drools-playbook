@@ -163,6 +163,8 @@ http://localhost:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/rest/
 * This page will  give you some information in .xml format about the server. 
 
 #### Application Home Page Url:
-`http://localhost/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/kie-drools-wb.html`
+```
+http://localhost/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/kie-drools-wb.html
+```
 
 This playbook helps you get started while you work to get things production-ready. If you want to see my drools-kie-workbench chef cookbook, you can check it out <a href="https://github.com/estelora/drools-kie-workbench">here</a>. (This open-source cookbook is not yet production-ready, but it's definitely a great reference if you are considering infrastructure automation for this server).
