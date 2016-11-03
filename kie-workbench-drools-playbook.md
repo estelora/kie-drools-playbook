@@ -2,9 +2,9 @@
 
 This playbook enables users, developers, and systems people to get started on KIE-workbench and Drools for Centos 6.6.
 
-* Platform: Centos 6 and Wildfly
+* Platform: CentOS 6.6 and Wildfly
 
-> Prerequisites: Assumes you are using Linux  (Centos 6.6)
+> Prerequisites: Assumes you are using Linux  (CentOS 6.6)
 ###Grab your software - (Versions are important)! 
 ####Download and Configure Java JDK 7
 
