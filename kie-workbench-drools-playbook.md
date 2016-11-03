@@ -150,7 +150,18 @@ $ cd /opt/wildfly-8.2.1.Final/bin/
 $ ./standalone.sh
 ```
 ## Check that all is well with curl, and then you can check the browser, too!
+
+#### Curl:
 ```
 $ curl -v --user kieserver:kieserver http://localhost:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/rest/controller/management/servers
 ```  
+####  Check if the Server is up in the Browser:
+```
+kieserver:kieserver http://localhost:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/rest/controller/management/servers
+```
+* This page will just give you page with some xml. 
+
+#### Application Home Page Url:
+`http://localhost/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/kie-drools-wb.html`
+
 This playbook helps you get started while you work to get things production-ready. If you want to see my drools-kie-workbench chef cookbook, you can check it out <a href="https://github.com/estelora/drools-kie-workbench">here</a>. (This open-source cookbook is not yet production-ready, but it's definitely a great reference if you are considering infrastructure automation for this server).
