@@ -13,37 +13,27 @@ This playbook enables users, developers, and systems people to get started on KI
  
 ```
 $ sudo sh -c "echo export JAVA_HOME=/opt/jdk1.7.0_79 >> /etc/environment
-
 $ sudo sh -c "echo export JRE_HOME=/opt/jdk1.7.0_79/jre >> /etc/environment
-
 $ sudo sh -c "echo export PATH=$PATH:/opt/jdk1.7.0_79/bin:/opt/jdk1.7.0_79jre/bin >> /etc/environment
 ```
 #### Download the Wildfly Server
 ```
 $ cd /tmp
-
 $ wget http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.tar.gz
 ```  
 #### Download KIE Drools Workbench
 ```
 $ cd /tmp
-
-$ wget http://download.jboss.org/drools/release/6.4.0.Final/kie-drools-wb-
-   distribution-wars-6.4.0.Final-wildfly8.war
+$ wget http://download.jboss.org/drools/release/6.4.0.Final/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8.war
    
 ```
 
 #### Download KIE Server
 ```
 $ cd /tmp
-
 $ sudo yum install unzip
-
-$ wget http://download.jboss.org/drools/release/6.4.0.Final/kie-server-
-  distribution-6.4.0.Final.zip
-
-$ unzip http://download.jboss.org/drools/release/6.4.0.Final/kie-server-
-  distribution-6.4.0.Final.zip
+$ wget http://download.jboss.org/drools/release/6.4.0.Final/kie-server-distribution-6.4.0.Final.zip
+$ unzip http://download.jboss.org/drools/release/6.4.0.Final/kie-server-distribution-6.4.0.Final.zip
 ```  
 
  ### Set up Wildfly 8.2.1
