@@ -160,7 +160,7 @@ $ curl -v --user kieserver:kieserver http://localhost:8080/kie-drools-wb-distrib
 http://localhost:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/rest/controller/management/servers
 ```
 * Log in with kieserver username and password.
-* This page will just give you page with some xml. 
+* This page will  give you some information in .xml format about the server. 
 
 #### Application Home Page Url:
 `http://localhost/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/kie-drools-wb.html`
