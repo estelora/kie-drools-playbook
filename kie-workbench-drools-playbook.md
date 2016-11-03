@@ -151,7 +151,6 @@ $ ./standalone.sh
 ```
 ## Check that all is well with curl, and then you can check the browser, too!
 ```
-$ curl -v --user kieserver:kieserver http://localhost:8080/kie-drools-wb-
-  distribution-wars-6.4.0.Final-wildfly8/rest/controller/management/servers
+$ curl -v --user kieserver:kieserver http://localhost:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/rest/controller/management/servers
 ```  
 This playbook helps you get started while you work to get things production-ready. If you want to see my drools-kie-workbench chef cookbook, you can check it out <a href="https://github.com/estelora/drools-kie-workbench">here</a>. (This open-source cookbook is not yet production-ready, but it's definitely a great reference if you are considering infrastructure automation for this server).
