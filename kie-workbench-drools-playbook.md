@@ -1,4 +1,4 @@
-#Linux Install and Configure KIE Workbench and KIE Server
+#Linux Installation and Configuration of KIE Workbench and Drools KIE Server
 
 This playbook enables users, developers, and systems people to get started on KIE-workbench and Drools for Centos 6.6.
 
